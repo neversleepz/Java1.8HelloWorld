@@ -5,4 +5,7 @@ compileJava {
 	targetCompatibility = 1.8
 }
 
+
+
+
 println System.getProperty('java.home')
