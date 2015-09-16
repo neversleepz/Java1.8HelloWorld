@@ -10,6 +10,7 @@ public class HelloWorld8 {
 
 	public static void main(String[] args) {
 		Supplier<String> helloer = () -> "Hello World!!!!!!!" ;
+		// here will be some code
 		System.out.println(helloer.get());
 	}
 }
