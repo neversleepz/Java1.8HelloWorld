@@ -5,7 +5,9 @@ import java.util.function.Supplier;
 // user1 comment
 
 public class HelloWorld8 {
-	
+
+	//more lines here
+
 	public static void main(String[] args) {
 		Supplier<String> helloer = () -> "Hello World!!!!!!!" ;
 		System.out.println(helloer.get());
